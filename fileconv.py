@@ -14,10 +14,10 @@ import pycolorizer
 import positive
 
 #env
-bot_token = os.environ.get("TOKEN", "") 
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "")
-owner_id = os.environ.get("OWNERID", "")
+bot_token = os.environ.get("TOKEN", "5752725687:AAHkApA42hWm1wA_JAa94H4ddlDrRisAI0Q") 
+api_hash = os.environ.get("HASH", "ac922823455e814e44020a9f3ee17914") 
+api_id = os.environ.get("ID", "534493")
+owner_id = os.environ.get("OWNERID", "621617473")
 
 #bot
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)
